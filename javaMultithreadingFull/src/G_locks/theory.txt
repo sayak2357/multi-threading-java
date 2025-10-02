@@ -1,0 +1,1 @@
+lock.lock() method works like synchronized. It forces the thread to wait indefinitely for lock.
