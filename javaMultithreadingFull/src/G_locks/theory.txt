@@ -1,1 +1,6 @@
 lock.lock() method works like synchronized. It forces the thread to wait indefinitely for lock.
+
+Disadvantages of synchronous lock:
+1. Not fair. Starvation can happen.
+2. No interruptibility
+3. No separate read/write lock

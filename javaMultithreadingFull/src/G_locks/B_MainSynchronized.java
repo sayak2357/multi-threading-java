@@ -1,8 +1,8 @@
 package G_locks;
 
-public class MainReentrant {
+public class B_MainSynchronized {
     public static void main(String[] args) {
-        BankAccountReentrantLock sbi = new BankAccountReentrantLock();
+        A_BankAccountSynchronized sbi = new A_BankAccountSynchronized();
 
         Runnable task = new Runnable() {
             @Override

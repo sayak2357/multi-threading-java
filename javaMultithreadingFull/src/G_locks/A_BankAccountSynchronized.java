@@ -1,6 +1,6 @@
 package G_locks;
 
-public class BankAccountSynchronized {
+public class A_BankAccountSynchronized {
     private int balance = 100;
 
     public synchronized void withdraw(int amount){

@@ -1,0 +1,7 @@
+Without proper thread communication, cpu cycles are wasted in checking.
+
+wait()
+notify()
+notifyAll()
+
+These 3 methods are for thread communication and can only be called from synchronized context.
