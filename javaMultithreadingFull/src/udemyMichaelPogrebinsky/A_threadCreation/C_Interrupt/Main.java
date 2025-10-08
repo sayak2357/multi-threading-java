@@ -1,0 +1,24 @@
+package udemyMichaelPogrebinsky.A_threadCreation.C_Interrupt;
+
+public class Main {
+    public static void main(String[] args) {
+        Thread thread = new Thread(new BlockingTask());
+        thread.start();
+        System.out.println("Main thread end");
+        thread.interrupt();
+    }
+
+    private static class BlockingTask implements Runnable{
+
+        @Override
+        public void run() {
+            try {
+                Thread.sleep(100000);
+            } catch (InterruptedException e) {
+
+                System.out.println("exiting blocking thread");
+            }
+
+        }
+    }
+}
