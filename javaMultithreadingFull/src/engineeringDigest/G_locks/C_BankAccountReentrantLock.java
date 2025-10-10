@@ -11,7 +11,7 @@ public class C_BankAccountReentrantLock {
     public void withdraw(int amount){
         System.out.println(Thread.currentThread().getName()+" attempting to withdraw amount: "+amount);
         try {
-            if(lock.tryLock(1000, TimeUnit.MILLISECONDS)) { // try locking by waiting for at max 1000 ms ie 1 sec
+            if(lock.tryLock(10100, TimeUnit.MILLISECONDS)) { // try locking by waiting for at max 1000 ms ie 1 sec
                 if (balance >= amount) {
 
                     try {

@@ -1,0 +1,4 @@
+# Semaphore is like lock but can hold count of allowed consumers instead of just binary.
+# Can restrict number of users per critical section.
+# Any thread can release a semaphore ie no ownership.
+# Inter thread communication for producer consumer, using semaphore
