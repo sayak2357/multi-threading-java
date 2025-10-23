@@ -2,7 +2,7 @@ package LeetcodeProblems;
 
 import java.util.concurrent.Semaphore;
 
-
+/*
 // https://leetcode.com/problems/print-zero-even-odd/
 public class B_printZeroEvenOdd {
     class ZeroEvenOdd {
@@ -56,3 +56,4 @@ public class B_printZeroEvenOdd {
         }
     }
 }
+*/

@@ -9,6 +9,7 @@ public class A_Intro {
             }
         });
         thread.setName("New Worker Thread");
+        thread.setPriority(Thread.MAX_PRIORITY);
         System.out.println("current thread before scheduling new thread: "+Thread.currentThread().getName());
         thread.start();
         System.out.println("current thread after scheduling new thread: "+Thread.currentThread().getName());
