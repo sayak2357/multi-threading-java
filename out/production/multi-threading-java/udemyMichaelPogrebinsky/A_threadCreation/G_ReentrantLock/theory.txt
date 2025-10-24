@@ -1,0 +1,4 @@
+# Provides more control and advanced features
+# Query method to test lock's internal staes
+# lockInterruptibly() to interrupt thread waiting for lock
+# tryLock: checks if lock available or not instead of blocking

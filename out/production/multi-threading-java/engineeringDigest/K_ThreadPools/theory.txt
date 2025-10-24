@@ -1,0 +1,9 @@
+Advantages:
+1. Resource management as no time spent on creating and destroying new threads
+2. Response time reduced
+3. Control over thread count
+
+For thread pooling we use Executor Framework
+
+Introduced in Java 5 as part of java.util.concurrent package to simplify development of concurrent applications by abstracting away many of the complexities
+involved in creating and managing threads.

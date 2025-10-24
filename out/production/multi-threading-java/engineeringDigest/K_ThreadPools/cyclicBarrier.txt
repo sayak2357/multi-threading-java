@@ -1,0 +1,3 @@
+# CountDown latch cannot be reused ie once it's count becomes 0 it can't be reset.
+# So we use CyclicBarrier
+# Cyclic barrier is used when threads wait at a barrier
