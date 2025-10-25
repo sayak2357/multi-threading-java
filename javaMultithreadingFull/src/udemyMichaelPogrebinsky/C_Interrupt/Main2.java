@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.C_Interrupt;
+package udemyMichaelPogrebinsky.C_Interrupt;
 
 import java.math.BigInteger;
 

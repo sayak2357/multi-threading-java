@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.B_ThreadCreationFundamentals;
+package udemyMichaelPogrebinsky.B_ThreadCreationFundamentals;
 
 public class B_UsingThread {
     public static void main(String[] args) {

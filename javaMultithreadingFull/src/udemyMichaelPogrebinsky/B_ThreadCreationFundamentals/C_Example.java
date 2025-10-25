@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.B_ThreadCreationFundamentals;
+package udemyMichaelPogrebinsky.B_ThreadCreationFundamentals;
 
 import java.util.ArrayList;
 import java.util.List;

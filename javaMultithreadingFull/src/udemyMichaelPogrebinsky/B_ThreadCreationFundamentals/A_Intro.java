@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.B_ThreadCreationFundamentals;
+package udemyMichaelPogrebinsky.B_ThreadCreationFundamentals;
 
 public class A_Intro {
     public static void main(String[] args) throws InterruptedException {

@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.I_interThradCommunication;
+package udemyMichaelPogrebinsky.I_interThradCommunication;
 
 /*
  * Copyright (c) 2019-2023. Michael Pogrebinsky - Top Developer Academy

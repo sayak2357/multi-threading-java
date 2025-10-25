@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.D_Join;
+package udemyMichaelPogrebinsky.D_Join;
 
 import java.lang.reflect.Array;
 import java.math.BigInteger;

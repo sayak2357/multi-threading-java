@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.C_Interrupt;
+package udemyMichaelPogrebinsky.C_Interrupt;
 
 public class Main {
     public static void main(String[] args) {

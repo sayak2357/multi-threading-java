@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.J_lockFree;
+package udemyMichaelPogrebinsky.J_lockFree;
 
 import java.util.ArrayList;
 import java.util.List;

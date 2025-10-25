@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.F_Synchronization;
+package udemyMichaelPogrebinsky.F_Synchronization;
 
 import java.util.Random;
 

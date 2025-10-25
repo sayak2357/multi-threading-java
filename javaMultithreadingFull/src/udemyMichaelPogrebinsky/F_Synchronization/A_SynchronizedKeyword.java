@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.F_Synchronization;
+package udemyMichaelPogrebinsky.F_Synchronization;
 
 public class A_SynchronizedKeyword {
     public static void main(String[] args) {

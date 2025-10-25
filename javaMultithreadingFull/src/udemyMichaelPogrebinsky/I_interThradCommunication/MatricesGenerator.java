@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.I_interThradCommunication;
+package udemyMichaelPogrebinsky.I_interThradCommunication;
 
 import java.io.File;
 import java.io.FileWriter;

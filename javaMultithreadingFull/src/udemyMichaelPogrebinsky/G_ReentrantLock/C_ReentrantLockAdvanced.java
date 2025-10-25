@@ -1,4 +1,4 @@
-package udemyMichaelPogrebinsky.A_threadCreation.G_ReentrantLock;
+package udemyMichaelPogrebinsky.G_ReentrantLock;
 
 import java.util.*;
 import java.util.concurrent.locks.Lock;
