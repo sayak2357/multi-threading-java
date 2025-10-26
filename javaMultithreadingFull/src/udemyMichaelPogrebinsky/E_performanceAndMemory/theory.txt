@@ -3,5 +3,11 @@
 
 # #Thread = #Cores   is optimal
 
-# Heap stores: Objects, class members, static varaibles
-# Stack stores: Local primitive types, local references 
+# Virtual core: A physical core may have duplicated hardware which allows it to run multiple threads in parallel using virtual cores.
+
+# Heap stores: Objects, class members, static variables
+# Stack stores: Local primitive types, local references
+
+# Inherent cost of parallelization and aggregation:
+  Breaking task into multiple tasks + Thread creation, passing tasks to threads + Time between thread.start() & thread getting scheduled
+  + Time until last thread finishes and signals + Time until the aggregating thread runs + Aggregation of sub-results into single artifact

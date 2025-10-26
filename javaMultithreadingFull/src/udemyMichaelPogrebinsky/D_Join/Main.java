@@ -33,7 +33,7 @@ public class Main {
 
     public static class FactorialThread extends Thread{
         private long inputNumber;
-        private BigInteger result = new BigInteger("0");
+        private BigInteger result = BigInteger.ZERO;
         private boolean isFinished = false;
 
         public FactorialThread(long inputNumber) {
