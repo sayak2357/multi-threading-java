@@ -2,3 +2,17 @@
 # Can restrict number of users per critical section.
 # Any thread can release a semaphore ie no ownership.
 # Inter thread communication for producer consumer, using semaphore
+
+# Difference between Semaphore & Lock
+1. Semaphore doesn't have notion of owner thread.
+2. Multiple threads can acquire permit.
+3. Same thread can acquire the semaphore multiple times.
+4. The binary semaphore (initialized with 1) is not reentrant.
+   eg.
+     Semaphore semaphore = new Semaphore(1);
+     void function(){
+        semaphore.acquire();
+        semaphore.acquire();  // Thread blocked
+     }
+
+5. Semaphore can be released by any thread, even by which hasn't acquired.

@@ -16,4 +16,5 @@ Using volatile keyword, data race is avoided. Synchronized keyword also avoids t
 locking & hence slows down system.
 
 # Deadlock may happen in fine grained locking.
-# Best strategy to avoid deadlock is to ensure circular weight doesn't occur by enforcing lock acquisitions follow same order in all threads.
+# Best strategy to avoid deadlock is to ensure circular weight doesn't occur
+  by enforcing lock acquisitions follow same order in all threads.
