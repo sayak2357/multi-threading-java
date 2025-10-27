@@ -1,1 +1,0 @@
-# If we set a thread as daemon thread, it will not stop main thread from exiting

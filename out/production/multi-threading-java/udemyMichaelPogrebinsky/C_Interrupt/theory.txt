@@ -1,0 +1,6 @@
+# When can we interrupt a thread?
+1. If the thread is executing a method that throws interruptedException
+2. If the thread's code is handling the interrupt signal explicitly.
+
+
+# If we set a thread as daemon thread, it will not stop main thread from exiting

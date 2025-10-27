@@ -1,7 +1,0 @@
-# Latency:    The time to complete any task measured in time units.
-# Throughput: The amount of tasks completed in a given period, measured in tasks/ time unit.
-
-# #Thread = #Cores   is optimal
-
-# Heap stores: Objects, class members, static varaibles
-# Stack stores: Local primitive types, local references 
