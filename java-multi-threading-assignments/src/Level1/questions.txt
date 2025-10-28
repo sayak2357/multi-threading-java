@@ -1,0 +1,97 @@
+🟢 LEVEL 1 — THREAD FUNDAMENTALS
+
+Learn how threads are created, scheduled, and managed.
+
+🧩 Q1 – Thread Creation (extends Thread & implements Runnable)
+
+Goal: Understand two ways to create threads.
+Requirements:
+
+Create one thread by extending Thread.
+
+Create another by implementing Runnable.
+
+Both print numbers 1–5 with delay 300ms.
+
+Observe interleaving.
+
+Expected Output:
+
+[Thread-1] 1
+[RunnableThread] 1
+...
+
+
+Hint: Call start(), not run().
+
+🧩 Q2 – Thread Names and Priorities
+
+Goal: Manage thread names and priorities.
+Requirements:
+
+Create threads: Alpha, Beta, Gamma.
+
+Set priorities 1, 5, 10.
+
+Print their name and priority in run().
+
+Expected:
+
+Alpha priority=1
+Beta priority=5
+Gamma priority=10
+
+
+Hint: Use setName() and setPriority() before starting.
+
+🧩 Q3 – Sleep and Yield
+
+Goal: Observe thread scheduling.
+Requirements:
+
+Thread A: prints “A” every 300 ms.
+
+Thread B: prints “B”, calls yield() each time.
+
+Observe difference in CPU time.
+
+Hint: yield() only suggests giving up CPU, not guaranteed.
+
+🧩 Q4 – Join Example
+
+Goal: Wait for thread completion.
+Requirements:
+
+Two worker threads with different durations.
+
+Main waits for both using join().
+
+Print “All workers done!” after completion.
+
+Hint: join() blocks main until thread finishes.
+
+🧩 Q5 – Daemon Thread
+
+Goal: Learn daemon lifecycle.
+Requirements:
+
+Create daemon thread printing “Daemon running”.
+
+Main thread sleeps 2s then exits.
+
+Observe daemon auto-termination.
+
+Hint: Set daemon before start().
+
+🧩 Q6 – Thread States
+
+Goal: Print thread lifecycle states.
+Requirements:
+
+Create thread that sleeps briefly.
+
+Print its state before, during, and after execution.
+
+Expected:
+
+NEW → RUNNABLE → TIMED_WAITING → TERMINATED

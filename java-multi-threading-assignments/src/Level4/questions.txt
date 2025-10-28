@@ -1,0 +1,70 @@
+🔵 LEVEL 4 — EXECUTOR FRAMEWORK
+
+Learn to use modern concurrency APIs for thread management.
+
+
+🧩 Q16 – Fixed Thread Pool
+
+Goal: Manage multiple tasks.
+Requirements:
+
+Create ExecutorService with pool size 3.
+
+Submit 5 tasks printing ID + thread name.
+
+Observe reuse of threads.
+
+🧩 Q17 – Callable and Future
+
+Goal: Return values from threads.
+Requirements:
+
+Implement Callable<Integer> that returns sum of first N numbers.
+
+Submit multiple tasks and print results.
+
+🧩 Q18 – invokeAll() and invokeAny()
+
+Goal: Run multiple callables together.
+Requirements:
+
+Submit 3 callables with different delays.
+
+Use invokeAll() to get all results.
+
+Use invokeAny() to get fastest result.
+
+🧩 Q19 – Executor Shutdown
+
+Goal: Understand shutdown sequence.
+Requirements:
+
+Submit few tasks.
+
+Call shutdown() then shutdownNow().
+
+Observe which tasks complete.
+
+Demonstrate awaitTermination().
+
+🧩 Q20 – ScheduledExecutorService
+
+Goal: Schedule recurring tasks.
+Requirements:
+
+Print timestamp every 3 seconds.
+
+Stop after 15 seconds.
+
+🧩 Q21 – Custom ThreadPoolExecutor
+
+Goal: Fine-tune pool parameters.
+Requirements:
+
+Create ThreadPoolExecutor manually:
+
+core=2, max=4, queue=2.
+
+Submit 10 tasks.
+
+Handle rejections with RejectedExecutionHandler.

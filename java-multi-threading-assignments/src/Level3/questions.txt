@@ -1,0 +1,39 @@
+🟠 LEVEL 3 — INTER-THREAD COMMUNICATION
+
+Coordinate producers and consumers safely.
+
+
+🧩 Q13 – Producer–Consumer (wait/notify)
+
+Goal: Build classic producer-consumer model.
+Requirements:
+
+Shared buffer (size 5).
+
+Producer adds items; waits if full.
+
+Consumer removes items; waits if empty.
+
+Use wait() / notifyAll().
+
+Hint: Always call wait inside a while loop.
+
+🧩 Q14 – Producer–Consumer (BlockingQueue)
+
+Goal: Simplify inter-thread coordination.
+Requirements:
+
+Use LinkedBlockingQueue instead of manual wait/notify.
+
+Producer adds items, consumer removes.
+
+🧩 Q15 – Spurious Wakeups
+
+Goal: Demonstrate best practice.
+Requirements:
+
+Modify previous wait/notify code.
+
+Place wait() inside while(!condition) not if.
+
+Explain reason (spurious wakeup protection).

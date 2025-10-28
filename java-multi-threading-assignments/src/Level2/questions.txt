@@ -1,0 +1,76 @@
+🟡 LEVEL 2 — SYNCHRONIZATION & DATA SAFETY
+
+Learn to prevent race conditions and coordinate shared data safely.
+
+
+🧩 Q7 – Race Condition Demo
+
+Goal: Observe unsynchronized access.
+Requirements:
+
+Shared Counter with count++.
+
+10 threads increment it 1000 times.
+
+Print wrong result (less than 10000).
+
+Fix it with synchronized.
+
+Hint: Use synchronized void increment().
+
+🧩 Q8 – Synchronized Method vs Block
+
+Goal: Compare synchronization scopes.
+Requirements:
+
+Same counter example.
+
+Version 1: whole method synchronized.
+
+Version 2: only critical section.
+
+Compare performance.
+
+🧩 Q9 – Static Synchronization
+
+Goal: Understand class-level locking.
+Requirements:
+
+Create two objects of same class with a static synchronized method.
+
+Show that they share one class-level lock.
+
+🧩 Q10 – Deadlock
+
+Goal: Simulate deadlock and fix it.
+Requirements:
+
+Two threads lock resources A and B in reverse order.
+
+Program freezes → deadlock.
+
+Fix using consistent lock ordering.
+
+Hint: Always acquire locks in same order.
+
+🧩 Q11 – Using ReentrantLock
+
+Goal: Learn explicit locking.
+Requirements:
+
+Replace synchronized with ReentrantLock.
+
+Demonstrate tryLock() and unlock() usage.
+
+🧩 Q12 – Thread-Safe Collections
+
+Goal: Understand safe collections.
+Requirements:
+
+Run multiple threads adding to:
+
+ArrayList (fail)
+
+Collections.synchronizedList() (works)
+
+Observe difference.

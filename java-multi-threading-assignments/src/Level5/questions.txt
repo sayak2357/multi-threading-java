@@ -1,0 +1,82 @@
+🔴 LEVEL 5 — ADVANCED CONCURRENCY UTILITIES
+
+Use java.util.concurrent tools for robust real-world code.
+
+
+🧩 Q22 – AtomicInteger Counter
+
+Goal: Use atomic variables.
+Requirements:
+
+Implement thread-safe counter using AtomicInteger.
+
+Compare with synchronized version (speed & simplicity).
+
+🧩 Q23 – CountDownLatch
+
+Goal: Wait for multiple threads to finish setup.
+Requirements:
+
+3 worker threads count down latch.
+
+Main waits with await(), prints “All ready!”.
+
+🧩 Q24 – CyclicBarrier
+
+Goal: Start threads together.
+Requirements:
+
+Create 3 player threads.
+
+All wait at barrier before printing “Started!”.
+
+🧩 Q25 – Semaphore
+
+Goal: Limit concurrent access.
+Requirements:
+
+5 cars, 3 parking slots.
+
+Only 3 acquire permits at a time.
+
+🧩 Q26 – Phaser
+
+Goal: Multi-phase coordination.
+Requirements:
+
+3 tasks, 3 phases (load → process → save).
+
+All must finish one phase before next begins.
+
+🧩 Q27 – ConcurrentHashMap
+
+Goal: Safe concurrent updates.
+Requirements:
+
+Multiple writer threads add to shared map.
+
+Print map after all complete.
+
+Compare with normal HashMap failure.
+
+🧩 Q28 – CompletableFuture Chain
+
+Goal: Asynchronous chaining.
+Requirements:
+
+Simulate data fetch (sleep).
+
+Transform result using thenApply().
+
+Handle exception with exceptionally().
+
+🧩 Q29 – Parallel Stream
+
+Goal: Use Java 8 parallelism.
+Requirements:
+
+List of integers 1–100.
+
+Filter primes using .parallelStream().
+
+Compare time with sequential stream.

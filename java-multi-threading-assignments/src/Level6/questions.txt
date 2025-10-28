@@ -1,0 +1,69 @@
+⚫ LEVEL 6 — REAL-WORLD MINI PROJECTS
+
+Combine concepts into real-life concurrency systems.
+
+🧩 Q30 – File Downloader (Simulation)
+
+Goal: Parallel task execution.
+Requirements:
+
+List of 5 file URLs (strings).
+
+Each download simulated with sleep(2s).
+
+Run using ExecutorService.
+
+🧩 Q31 – Web Crawler Simulator
+
+Goal: Thread-safe queue processing.
+Requirements:
+
+Multiple threads process URLs from a queue.
+
+Each adds “child URLs” back to queue (simulate).
+
+🧩 Q32 – Async Image Processor
+
+Goal: Chain async tasks.
+Requirements:
+
+Use CompletableFuture to apply filters:
+
+Blur → Resize → Grayscale.
+
+Print when all filters complete.
+
+🧩 Q33 – Database Connection Pool
+
+Goal: Limit resource usage.
+Requirements:
+
+Simulate pool with Semaphore(3).
+
+6 threads request “connections”.
+
+Wait if all are busy.
+
+🧩 Q34 – Restaurant Order System
+
+Goal: Apply producer-consumer in real scenario.
+Requirements:
+
+Producers = order takers.
+
+Consumers = cooks.
+
+Shared BlockingQueue.
+
+Log order creation and completion.
+
+🧩 Q35 – Race Simulation
+
+Goal: Combine barrier + random timing.
+Requirements:
+
+Use CyclicBarrier for start signal.
+
+Each runner sleeps random time to simulate speed.
+
+Print who finishes first.
