@@ -14,7 +14,7 @@ public class Q12 {
         t2.start();
         t1.join();
         t2.join();
-        System.out.println("size of list after running 2 threads: "+sharedList.size());
+        System.out.println("size of list after running 2 threads with unsafe collection: "+sharedList.size());
         sharedList.clear();
         List<Integer> syncList = Collections.synchronizedList(sharedList);
         UnsafeThread t3 = new UnsafeThread(syncList);
@@ -24,7 +24,7 @@ public class Q12 {
         t4.start();
         t3.join();
         t4.join();
-        System.out.println("size of list after running 2 threads: "+sharedList.size());
+        System.out.println("size of list after running 2 threads with thread safe collection: "+sharedList.size());
 
     }
     private static class UnsafeThread extends Thread{
