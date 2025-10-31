@@ -1,0 +1,17 @@
+
+Blocking IO/Thread per task:
+# performance -- High memory usage & context switched
+# Safety/Stability -- Inversion of control
+# Code writing --     Easy
+# Code reading --     Easy
+# Code testing --     Easy
+# Debugging    --     Easy
+
+
+Non Blocking IO/Thread per core:
+# performance --      Optimal
+# Safety/Stability -- Optimal
+# Code writing --     Hard
+# Code reading --     Hard
+# Code testing --     Hard
+# Debugging    --     Hard
