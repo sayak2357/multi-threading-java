@@ -31,7 +31,7 @@ class SharedBuffer {
 
     public synchronized void produce(int value) throws InterruptedException {
         // Wait if buffer is full
-        while (list.size() == capacity) {
+        while (list.size() == capacity) { // spurious wake-up protection
             System.out.println(Thread.currentThread().getName() + " waiting — buffer is full");
             wait();
         }
@@ -45,7 +45,7 @@ class SharedBuffer {
 
     public synchronized int consume() throws InterruptedException {
         // Wait if buffer is empty
-        while (list.isEmpty()) {
+        while (list.isEmpty()) {  // spurious wake-up protection
             System.out.println(Thread.currentThread().getName() + " waiting — buffer is empty");
             wait();
         }
